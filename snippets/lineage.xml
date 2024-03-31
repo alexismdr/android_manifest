@@ -97,16 +97,16 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
   
   <!-- Extras -->
-  <project path="external/htop" name="android_external_htop" remote="lineage" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-  <project path="external/nano" name="android_external_nano" remote="lineage" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/openssh" name="android_external_openssh" remote="lineage" />
-  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
-  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
-  <project path="external/vim" name="android_external_vim" remote="lineage" />
-  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" revision="lineage-20.0" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" revision="lineage-20.0" />
+  <project path="external/nano" name="android_external_nano" remote="lineage" revision="lineage-20.0" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" revision="lineage-20.0" />
+  <project path="external/openssh" name="android_external_openssh" remote="lineage" revision="lineage-20.0" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" revision="lineage-20.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" revision="lineage-20.0" />
+  <project path="external/unrar" name="android_external_unrar" remote="lineage" revision="lineage-20.0" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" revision="lineage-20.0" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" revision="lineage-20.0" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
