@@ -108,6 +108,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pixelbuilds" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
+  <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="pixelbuilds" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" />
 
   <!-- System Repos -->

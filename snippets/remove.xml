@@ -129,6 +129,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/HealthFitness" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
