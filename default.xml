@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-14.0.0_r27"
+  <default revision="refs/tags/android-14.0.0_r45"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r27"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r45"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -62,6 +62,9 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" groups="pdk" />
+  <project path="device/google/akita" name="device/google/akita" groups="device,akita" />
+  <project path="device/google/akita-sepolicy" name="device/google/akita-sepolicy" groups="device,akita" />
+  <project path="device/google/akita-kernel" name="device/google/akita-kernel" groups="device,akita" clone-depth="1" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
   <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
