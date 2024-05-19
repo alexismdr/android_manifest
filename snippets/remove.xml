@@ -21,6 +21,9 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/akita" />
+  <remove-project name="device/google/akita-kernel" />
+  <remove-project name="device/google/akita-sepolicy" />
   <remove-project name="device/google/shusky" />
   <remove-project name="device/google/shusky-kernel" />
   <remove-project name="device/google/shusky-sepolicy" />
