@@ -132,4 +132,5 @@
 
   <!-- Extras -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" revision="refs/tags/android-14.0.0_r31" />
 </manifest>
