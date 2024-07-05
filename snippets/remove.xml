@@ -136,6 +136,7 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/HealthFitness" />
   <remove-project name="platform/packages/modules/StatsD" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />

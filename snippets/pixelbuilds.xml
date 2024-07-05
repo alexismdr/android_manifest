@@ -116,6 +116,7 @@
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
   <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="pixelbuilds" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="pixelbuilds" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" />
 
   <!-- System Repos -->
