@@ -20,6 +20,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
+  <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" />
 
@@ -123,6 +124,8 @@
   <project path="system/core" name="android_system_core" remote="pixelbuilds" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pixelbuilds" />
   <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" />
+  <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" />
+  <project path="system/security" name="android_system_security" remote="pixelbuilds" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
   <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" />
 
