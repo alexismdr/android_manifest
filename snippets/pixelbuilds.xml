@@ -17,9 +17,13 @@
           fetch="https://github.com/PixelBuilds-Devices"
           revision="unity" />
 
+  <remote name="alexismdr"
+          fetch="https://github.com/alexismdr"
+          revision="unity" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="alexismdr" />
   <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" />
@@ -35,13 +39,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="pixelbuilds" >
+  <project path="build/soong" name="android_build_soong" remote="alexismdr" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" />
-  <project path="manifest" name="android_manifest" remote="pixelbuilds" />
+  <project path="manifest" name="android_manifest" remote="alexismdr" />
   <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
 
   <!-- Device repos -->
@@ -62,7 +66,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelbuilds" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="alexismdr" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="pixelbuilds" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="pixelbuilds" />
@@ -132,7 +136,7 @@
   <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" />
 
   <!-- Vendor repos -->
-  <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds" >
+  <project path="vendor/pb" name="android_vendor_pb" remote="alexismdr" >
     <linkfile src="build.sh" dest="pb-build.sh" />
   </project>
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixelbuilds" />
